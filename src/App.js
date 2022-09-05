@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import "./App.css";
 import ContactBar from "./Components/ContactBar";
 import Footer from './Components/Footer/index';
@@ -8,10 +9,12 @@ import Home from './Sections/Home/index';
 import Work from './Sections/Work/index';
 
 function App() {
+	const [blur,setBlur] = useState(false)
+	
 	return (
 		<main className="main">
-			<Navbar />
-			<div className="app_section_container">
+			<Navbar blur={blur} setBlur={setBlur} />
+			<div className={blur ? 'app_section_container' : 'app_section_container blur'}>
 				<Home />
 				<About />
 				<Experience />

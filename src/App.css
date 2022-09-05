@@ -13,6 +13,12 @@
     z-index: 2;
     max-width: 1440px;
 }
+.blur {
+    filter: blur(5px) brightness(0.7);
+    transition: var(--transition);
+    pointer-events: none;
+    user-select: none;
+}
 
 @media screen and (max-width:900px) {
     .app_section_container {

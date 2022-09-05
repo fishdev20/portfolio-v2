@@ -3,9 +3,17 @@ import Hamburger from "hamburger-react";
 import { useEffect, useState } from "react";
 import styles from "./styles.module.scss";
 
-function Navbar() {
+function Navbar({blur,setBlur}) {
 	const [active, setActive] = useState(false)
 	const activeStyle = active ? `${styles.active}` : ''
+
+	useEffect(() => {
+		if(active) {
+			setBlur(false)
+		} else {
+			setBlur(true)
+		}
+	},[active])
 
 	let tl = gsap.timeline({
 		delay: 0.5	})

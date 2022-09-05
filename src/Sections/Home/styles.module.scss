@@ -52,12 +52,13 @@
                 .btn {
                     outline: none;
                     font-size: var(--fz-md);
+                    font-family: var(--font-mono);
                     background: transparent;
                     border: 1px solid var(--green);
                     color: var(--green);
                     border-radius: 5px;
                     padding: 15px 20px;
-                    width: 200px;
+                    width: 210px;
                     cursor: pointer;
                     margin-top: 15px;
                     &:hover {
