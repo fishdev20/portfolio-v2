@@ -1,0 +1,77 @@
+{
+    "experiences": [
+        {
+            "company": "Kassavirtanen Oy",
+            "link": "https://www.kassavirtanen.fi/en/",
+            "title": "Jr. Software Developer",
+            "duration": "Mar 2022 - Present",
+            "desc": [
+                "Building friendly user interface for billing and invoice services dash-board.",
+                "Fixing dash-board functionalities, fixing bugs.",
+                "Co-operated with other C#, .NET developers.",
+                "Using Redux, Redux-saga to manage state, Microsoft Azure to deploy."
+            ]
+        },
+        {
+            "company": "Classfunc Software",
+            "link": "https://classfunc.com/",
+            "title": "Jr. Frontend Developer",
+            "duration": "Jul 2021 - Mar 2022",
+            "desc": [
+                "Mainly built UI components with Reactjs for Calendar, Streaming platform, Meeting application for business of Japanese customers.",
+                "Bug fixing.",
+                "Used firebase for storing data."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title":"Ecommerce",
+            "image": "./images/project_1.png",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "skills": ["React", "Express", "MongoDB"],
+            "github": "/",
+            "link": ""
+        },
+        {
+            "title":"Spotify",
+            "image": "./images/project_2.png",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "skills": ["React", "Express", "MongoDB"],
+            "github": "/",
+            "link": "/"
+        },
+        {
+            "title":"Spotify",
+            "image": "./images/project_2.png",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "skills": ["React", "Express", "MongoDB"],
+            "github": "/",
+            "link": "/"
+        },
+        {
+            "title":"Spotify",
+            "image": "./images/project_2.png",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "skills": ["React", "Express", "MongoDB"],
+            "github": "/",
+            "link": "/"
+        }
+    ],
+    "recenTechnologies" : [
+        "Javascript (ES6+)",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "Framer motion",
+        "Gsap",
+        "Microsoft Azure"
+        
+    ],
+    "skills": {
+        "language" : ["Javascript (ES6+)", "TypeScript"],
+        "frontEnd" : ["React.js", "React Native", "Next.js"],
+        "backEnd" : ["Node.js", "Express.js", "Firebase", "MongoDb"],
+        "uiFramework" : ["Ant Design", "Material Ui", "Gsap", "Framer motion", "Tailwind Css", "Sass"]
+    }
+}

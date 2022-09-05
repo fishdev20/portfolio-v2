@@ -1,0 +1,58 @@
+.contact_bar_wrapper {
+    width: 100%;
+    position: fixed;
+    bottom: -20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    opacity: 0;
+}
+
+.contact_bar {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: relative;
+}
+
+.line {
+    width: 1px;
+    height: 120px;
+    background: var(--light-slate);
+    margin-top: 20px;
+}
+
+.email {
+    font-family: var(--font-sans);
+    font-size: var(--fz-sm);
+    writing-mode: vertical-rl;
+    letter-spacing: 1px;
+    margin: 0;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.icon {
+    margin-top: 15px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.email:hover {
+    color: var(--green);
+    margin-bottom: 3px;
+}
+
+.icon:hover {
+    color: var(--green);
+    transform: translateY(-3px);
+}
+
+
+@media screen and (max-width: 900px) {
+    .contact_bar_wrapper {
+        display: none;
+    }
+}
