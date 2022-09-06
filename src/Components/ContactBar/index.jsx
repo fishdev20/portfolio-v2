@@ -4,7 +4,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import gsap from 'gsap';
 import { useEffect, useRef } from 'react';
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 
 function ContactBar() {
 	let section = useRef(null)
