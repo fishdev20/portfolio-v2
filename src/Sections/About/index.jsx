@@ -37,16 +37,16 @@ function About() {
 							
 						</Grid>
 						<Grid item xs={12} md={6} className={styles.right}>
-							<AnimationSection>
-								<div className={`${styles.image_container} fadeIn`}>
+							
+								<AnimationSection className={styles.image_container}>
 									<img
 										src="./images/profile.jpg"
 										alt="profile"
 										className={styles.profile_img}
 									/>
 									<div className={styles.img_border}></div>
-								</div>
-							</AnimationSection>
+								</AnimationSection>
+							
 							
 							
 						</Grid>

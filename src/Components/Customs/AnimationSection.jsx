@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { useInView } from "react-intersection-observer";
 import styles from "./animation.module.scss";
 
-export default function AnimationSection({children}) {
+export default function AnimationSection({children, className}) {
 
     const boxVariant = {
 		visible: { opacity: 1 , transition: { duration: 1,ease: "easeOut" },y: -50 },
@@ -22,7 +22,7 @@ export default function AnimationSection({children}) {
   return (
     <motion.div
         style={{ y: 0 }}
-        className={styles.box}
+        className={`${styles.box} ${className}`}
         ref={ref}
         variants={boxVariant}
         initial="hidden"
