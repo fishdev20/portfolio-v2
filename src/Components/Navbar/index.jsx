@@ -37,14 +37,6 @@ function Navbar({blur,setBlur}) {
 			ease: "power3.easeOut",
 			delay: 0.25
 		})
-		gsap.to('#_skills', {
-			'clipPath': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', 
-			opacity: 1,
-			y: 0, 
-			duration: 0.6,
-			ease: "power3.easeOut",
-			delay: 0.5
-		})
 		gsap.to('#_work', {
 			'clipPath': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', 
 			opacity: 1,
@@ -83,9 +75,6 @@ function Navbar({blur,setBlur}) {
 					<a href="#experience" id="_experience" className={styles.nav_link}>
 						<span>02.</span>Experience
 					</a>
-					<a href="#skills" id="_skills" className={styles.nav_link}>
-						<span>03.</span>Skills
-					</a>
 					<a href="#work" id="_work" className={styles.nav_link}>
 						<span>04.</span>Work
 					</a>
@@ -110,9 +99,6 @@ function Navbar({blur,setBlur}) {
 						</a>
 						<a href="#experience" className={styles.nav_link} onClick={() => {setActive(false)}}>
 							<span>02.</span>Experience
-						</a>
-						<a href="#skills" className={styles.nav_link} onClick={() => {setActive(false)}}>
-						<span>03.</span>Skills
 						</a>
 						<a href="#work" className={styles.nav_link} onClick={() => {setActive(false)}}>
 							<span>03.</span>Work

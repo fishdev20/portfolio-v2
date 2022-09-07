@@ -1,46 +1,68 @@
 .contact_section {
+    width: 100%;
     height: 100vh;
     max-height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: var(--font-sans);
+
     position: relative;
-}
-
-.heading_1 {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.heading_2 {
-    font-size: 50px;
-    margin: 0;
-}
-
-.desc {
-    font-size: var(--fz-lg);
-    width: 600px;
-    text-align: center;
-    color: var(--slate);
-}
-
-.btn {
-    outline: none;
-    font-size: var(--fz-md);
-    background: transparent;
-    border: 1px solid var(--green);
-    color: var(--green);
-    border-radius: 5px;
-    padding: 15px 20px;
-    width: 150px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-.btn:hover {
-    background: var(--green-tint);
+    z-index: 999999;
+    .heading_1 {
+        display: block;
+        margin-bottom: 20px;
+        div {
+            p {
+                color: var(--green);
+                font-family: var(--font-mono) !important;
+                font-size: var(--fz-md);
+                font-weight: 400;
+            }
+            h1 {
+                color: var(--green);
+                font-family: var(--font-mono) !important;
+                font-size: var(--fz-md);
+                font-weight: 400;
+            }
+        }
+    }
+    .heading_2 {
+        font-family: var(--font-sans);
+        font-size: clamp(40px, 5vw, 60px);
+        margin: 0;
+    }
+    
+    .desc {
+        font-family: var(--font-sans);
+        font-size: var(--fz-lg);
+        width: 100%;
+        max-width: 600px;
+        text-align: center;
+        color: var(--slate);
+    }
+    
+    .btn {
+        display: flex;
+        align-items: center;
+        color: var(--green);
+        background-color: transparent;
+        border: 1px solid var(--green);
+        border-radius: 5px;
+        padding: 1rem 1.75rem;
+        font-size: var(--fz-sm);
+        font-family: var(--font-mono);
+        line-height: 1;
+        text-decoration: none;
+        cursor: pointer;
+        transition: var(--transition);
+        margin-top: 50px;
+        z-index: 99;
+        &:hover {
+            background: var(--green-tint);
+        }
+        
+    }
+    
+    
 }

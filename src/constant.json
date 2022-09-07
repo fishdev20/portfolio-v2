@@ -8,8 +8,9 @@
             "desc": [
                 "Building friendly user interface for billing and invoice services dash-board.",
                 "Fixing dash-board functionalities, fixing bugs.",
+                "Maintance, developping and implementing other company's products",
                 "Co-operated with other C#, .NET developers.",
-                "Using Redux, Redux-saga to manage state, Microsoft Azure to deploy."
+                "Technologies: Javascript, React, Material UI, Redux, Redux-saga, Microsoft Azure"
             ]
         },
         {
@@ -18,44 +19,52 @@
             "title": "Jr. Frontend Developer",
             "duration": "Jul 2021 - Mar 2022",
             "desc": [
-                "Mainly built UI components with Reactjs for Calendar, Streaming platform, Meeting application for business of Japanese customers.",
-                "Bug fixing.",
-                "Used firebase for storing data."
+                "Built and developed UI components with Reactjs for Calendar, Streaming platform, Meeting application for business of Japanese customers.",
+                "Bug fixing, Implement functionalities",
+                "Technologies: Javascript, React, Node.js, Firebase, TailwindCss"
             ]
         }
     ],
     "projects": [
         {
-            "title":"Ecommerce",
-            "image": "./images/project_1.png",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-            "skills": ["React", "Express", "MongoDB"],
-            "github": "/",
-            "link": ""
+            "title":"Portfolio V1",
+            "image": "./images/portfolio_v1.png",
+            "desc": "My first version of my portfolio, it tooks 1 months to build and correct everything. This was built with React, Styled Components and deploy with Firebase",
+            "skills": ["React"],
+            "github": "https://github.com/fishdev20/Minh-Nguyen-main",
+            "link": "https://portforlio-minhnguyen.web.app/"
         },
         {
-            "title":"Spotify",
-            "image": "./images/project_2.png",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-            "skills": ["React", "Express", "MongoDB"],
-            "github": "/",
+            "title":"Dev Academy Assignments of Solita",
+            "image": "./images/bike_application.png",
+            "desc": "A full-stack pre-assignments of Solita Dev Academy 2022, imported some csv files and stored in Mongodb, front-end was built with React, some animation with Gsap, used Ant Design to spice the UI up. Back-end was built with Node.js and Express.js. This application can be used to look up and find bike station in Finland, user can also find and add more journeys to the tables.",
+            "skills": ["React","Node.js", "Express.js", "MongoDB"],
+            "github": "https://github.com/fishdev20/bike-application",
             "link": "/"
         },
         {
-            "title":"Spotify",
-            "image": "./images/project_2.png",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-            "skills": ["React", "Express", "MongoDB"],
-            "github": "/",
-            "link": "/"
+            "title":"Simple CRUD application",
+            "image": "./images/crud.png",
+            "desc": "A simple Node.js application to know the flow how Nodejs works, functionalities: Create user, Update user, Delete user",
+            "skills": ["Node.js", "Express.js", "EJS"],
+            "github": "https://github.com/fishdev20/CRUD_application",
+            "link": "https://users-managementt.herokuapp.com/"
         },
         {
-            "title":"Spotify",
-            "image": "./images/project_2.png",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-            "skills": ["React", "Express", "MongoDB"],
-            "github": "/",
-            "link": "/"
+            "title":"Shooping Cart",
+            "image": "./images/shopping_cart.png",
+            "desc": "Practicing with Typescript, user can add some items to the cart, delete the items in the cart",
+            "skills": ["React", "Typescript"],
+            "github": "https://github.com/fishdev20/Shoping_Cart_Typescript",
+            "link": "https://shopping-cart-vite.netlify.app/"
+        },
+        {
+            "title":"Animation Hero Section and Menu",
+            "image": "./images/anmation_hero.png",
+            "desc": "Animation using gsap and sass to make a web page lively and eye-catching, also include an light and dark mode",
+            "skills": ["React", "Gsap", "Sass"],
+            "github": "https://github.com/fishdev20/animation-hero-section-and-menu",
+            "link": "https://gsap-motion.netlify.app/"
         }
     ],
     "recenTechnologies" : [
@@ -66,6 +75,15 @@
         "Framer motion",
         "Gsap",
         "Microsoft Azure"
+        
+    ],
+    "otherTech" : [
+        "React Native",
+        "Next.js",
+        "Material UI",
+        "Ant design",
+        "Firebase",
+        "MongoDb"
         
     ],
     "skills": {

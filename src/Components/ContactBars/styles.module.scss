@@ -1,20 +1,19 @@
-.contact_bar_wrapper {
-    width: 100%;
+.contact_bar {
+    opacity: 0;
     position: fixed;
     bottom: -20px;
-    display: flex;
-    justify-content: space-between;
-    z-index: 10;
-    opacity: 0;
-}
-
-.contact_bar {
     width: 50px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    position: relative;
+    z-index: 10;
+}
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
 }
 
 .line {
@@ -52,7 +51,7 @@
 
 
 @media screen and (max-width: 900px) {
-    .contact_bar_wrapper {
+    .contact_bar {
         display: none;
     }
 }

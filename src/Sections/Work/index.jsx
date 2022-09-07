@@ -10,8 +10,8 @@ function Work() {
 	const { width } = useWindowDimensions();
 	return (
 		<section id="work">
-			<Heading index="04" heading="Some Things I’ve Built" />
-			{width > 780 ? 
+			<Heading index="03" heading="Some Things I’ve Built" />
+			{width > 680 ? 
 			<div className={styles.container}>
 				{constant.projects.map((project, index) =>
 					index % 2 === 0 ? (
@@ -37,10 +37,10 @@ function Work() {
 										))}
 									</div>
 									<div>
-										<a href="/" className={styles.link}>
+										<a href={project.github} className={styles.link}>
 											<GitHubIcon />
 										</a>
-										<a href="/" className={styles.link}>
+										<a href={project.link} className={styles.link}>
 											<OpenInNewIcon />
 										</a>
 									</div>
@@ -61,10 +61,10 @@ function Work() {
 										))}
 									</div>
 									<div>
-										<a href="/" className={styles.link}>
+										<a href={project.github} className={styles.link}>
 											<GitHubIcon />
 										</a>
-										<a href="/" className={styles.link}>
+										<a href={project.link} className={styles.link}>
 											<OpenInNewIcon />
 										</a>
 									</div>
@@ -98,7 +98,7 @@ function Work() {
 									
 								<div className={styles.mobile_info}>
 									<div style={{padding: 30}}>
-										<a href={project.link} className={styles.mobile_heading}>
+										<a href={project.link} target="__blank" className={styles.mobile_heading}>
 											{project.title}
 										</a>
 										<p className={styles.mobile_desc}>{project.desc}</p>
@@ -108,10 +108,10 @@ function Work() {
 											))}
 										</div>
 										<div>
-											<a href="/" className={styles.link}>
+											<a href={project.github} target="__blank" className={styles.link}>
 												<GitHubIcon />
 											</a>
-											<a href="/" className={styles.link}>
+											<a href={project.link} target="__blank" className={styles.link}>
 												<OpenInNewIcon />
 											</a>
 										</div>

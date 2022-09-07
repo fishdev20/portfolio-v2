@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 200px);
-    margin-top: 80px;
+    height:100%;
+    min-height: 100vh;
+    // margin-top: 80px;
 }
 
 .left {
