@@ -35,6 +35,14 @@
             "link": "https://portforlio-minhnguyen.web.app/"
         },
         {
+            "title":"Multi language website with Typescript + Redux",
+            "image": "./images/multi_language.png",
+            "desc": "How to implement a multi language website using Typescript and Redux",
+            "skills": ["React","Typescript", "Redux"],
+            "github": "https://github.com/fishdev20/multi-language-typescript-redux",
+            "link": "https://multi-language-page.netlify.app/"
+        },
+        {
             "title":"Dev Academy Assignments of Solita",
             "image": "./images/bike_application.png",
             "desc": "A full-stack pre-assignments of Solita Dev Academy 2022, imported some csv files and stored in Mongodb, front-end was built with React, some animation with Gsap, used Ant Design to spice the UI up. Back-end was built with Node.js and Express.js. This application can be used to look up and find bike station in Finland, user can also find and add more journeys to the tables.",
