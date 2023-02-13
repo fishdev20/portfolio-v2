@@ -54,7 +54,7 @@
             "desc": "My second portfolio",
             "skills": ["React","Javascript"],
             "github": "https://github.com/fishdev20/portfolio-v2",
-            "link": "/"
+            "link": "https://minhnguyen2.netlify.app/"
         },
         {
             "title":"Portfolio V1",
