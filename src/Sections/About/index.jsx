@@ -22,8 +22,8 @@ function About() {
 									In addition to my knowledge base, I actively seek out new technologies
 									and stay up to date on industry trends and advancements. 
 									This has allowed me to stay ahead of the curve and deliver exceptional work
-									to all I have worked on a project basic. Until now, I have 1 year experience hands on
-									working in Web development.
+									to all I have worked on a project basic. Until now, I have more than 1 year experience hands on
+									working in Web development and Mobile development.
 								</p>
 								<p className={`${styles.desc}`}>Here are a few technologies I’ve been working with recently:</p>
 								<ul className={styles.skills_list}>

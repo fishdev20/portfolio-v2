@@ -68,12 +68,12 @@ function Home() {
 						I am a progressive junior Software developer with high-self
 						motivation. A friendly Vietnamese based in Finland. Currently, I'm focused on building products at 
 						<span>
-							<a style={{color: '#fff'}} href="#" onClick={() => window.open('https://www.kassavirtanen.fi/en/')}> Kassavirtanen Oy, Finland.</a>
+							<a style={{color: '#fff'}} href="#" onClick={() => window.open('https://triona.fi/')}> Triona Oy, Finland.</a>
 						</span>
 					</p>
 					<div id="btn" className={styles.btn_container}>
 						<a href="#work">
-							<button className={styles.btn}>Check out my work !</button>
+							<button className={styles.btn}>Check out my personal work !</button>
 						</a>
 					</div>
 					
